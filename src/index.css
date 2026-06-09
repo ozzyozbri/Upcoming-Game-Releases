@@ -1,9 +1,10 @@
 /* Container Layout */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   padding: 20px;
+  background-color: black;
 }
 
 /* Individual Card Styling */
@@ -41,4 +42,27 @@
   font-size: 0.95rem;
   color: #4a5568;
   line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+html {
+  background-color: black;
+}
+
+div {
+  background-color: black;
+}
+
+div h1 {
+  padding-top: 50px;
+  color: white;
+}
+
+div h2 {
+  color: white;
 }
