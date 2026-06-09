@@ -66,3 +66,17 @@ div h1 {
 div h2 {
   color: white;
 }
+
+#handheld {
+  display: block;
+  margin: auto;
+}
+
+
+a:link, 
+a:visited, 
+a:active {
+  text-decoration: none;
+  color: #333333; /* Replace with your preferred text color */
+}
+
